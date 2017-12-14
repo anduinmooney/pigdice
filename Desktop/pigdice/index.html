@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Pig Dice</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Pig Dice</h1>
+        <h2>The Rules:</h2>
+        <ul>
+          <li>If the player rolls a 1, they score nothing and it becomes the next player's turn.</li>
+          <li>If the player rolls any other number, it is added to their turn total and the player's turn continues.</li>
+          <li>If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.</li>
+          <li>The first player to score 100 or more points wins.</li>
+        </ul>
+      </div>
+      <div class="wellwellwell">
+      <div class="well">
+      <form id="username-form">
+        <div class="form-group">
+          <label for="username">Enter Nickname for Player 1:</label>
+          <input type="text" class="form-control" id="username">
+        </div>
+        <div class="form-group">
+          <label for="username2">Enter Nickname for Player 2:</label>
+          <input type="text" class="form-control" id="username2">
+        </div>
+        <button type="submit" class="btn-danger"><e>Play Pig Dice!</e></button>
+      </div>
+    </div>
+      </form>
+      <div class="row">
+      <div class="col-lg-4">
+      <div class="player1">
+        <div class="well">
+        <h2>Player 1:</h2>
+        <h3 id="player1name"></h3>
+        <p id="player1score"></p>
+      </div>
+    </div>
+    </div>
+    <div class="dice">
+    <div class="col-lg-4">
+      <div class="player1turn">
+        <h2 id="player1nameturn">Your turn, </h2>
+      </div>
+      <div class="player2turn">
+        <h2 id="player2nameturn">Your turn, </h2>
+      </div>
+      <button onclick="rollDice()">Roll the die!</button>
+      <br>
+      <button onclick="holdDice()">Hold!</button>
+      <br>
+      <div class="well">
+      <p id="score"></p>
+      </div>
+    </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="player2">
+        <div class="well">
+      <h2>Player 2:</h2>
+      <h3 id="player2name"></h3>
+      <p>Score:</p>
+
+      </div>
+    </div>
+    </div>
+
+    </div>
+  </div>
+  </body>
+</html>

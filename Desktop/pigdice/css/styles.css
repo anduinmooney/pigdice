@@ -1,0 +1,79 @@
+.jumbotron {
+  text-align: center;
+  background-color: darkred;
+  color: white;
+}
+
+.jumbotron ul {
+  list-style-type: none;
+}
+
+body{
+  background-color: red;
+}
+
+#username-form {
+  width: 500px;
+  margin: auto;
+}
+
+.player1 {
+  text-align: left;
+  max-width: 300px;
+  max-height: 200px;
+  min-width: 300px;
+  min-height: 300px;
+  display: none;
+  margin:auto;
+
+}
+
+.player2 {
+  text-align: left;
+  max-width: 300px;
+  max-height: 200px;
+  min-width: 300px;
+  min-height: 300px;
+  display: none;
+  margin:auto;
+
+
+}
+
+.wellwellwell .well {
+  width: 50%;
+  margin: auto;
+  background-color: #ff7f7f;
+}
+
+.dice button {
+  margin:auto;
+  display: block;
+}
+
+.dice {
+  display: none;
+  text-align: center;
+}
+
+.dice .well {
+  border: black;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+}
+
+.player1turn {
+visibility: visible;
+}
+
+.player2turn {
+  visibility: visible;
+}
+
+.well #score {
+
+  font-size: 50px;
+  margin: auto;
+  display: block;
+}
