@@ -1,49 +1,49 @@
-# _{Application Name}_
+# _Pig Dice_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _This is a working version of the game called Pig Dice_
 
-#### By _**{List of contributors}**_
+#### By _**Anduin**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
-
-## Specifications
-
-_1:Prompts user for nickname and stores the value. Input (Anduin) Output (Anduin)_
-
-_2:Create random number generator from 1-6 on button click. Input (click) Output (5)_
-
-_3:If random number equals 1, return a false boolean and move to next players turn. Input (1) Output (false)_
-
-_4:Have program count up to 100, and then ends the game. Input (100) Output (Game End)_
-
-_5:Have program add up the score and declare a winner based on if/else statements. Input (Player 1 Score = 100) Output (Player 1 wins!)_
+_This game will allow the user to play against another user in a game of Pig Dice_
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Clone repository_
+* _Launch index.html_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+## Rules
+
+_On a turn, a player rolls the die repeatedly. The goal is to accumulate as many points as possible, adding up the numbers rolled on the die. However, if a player rolls a 1, the player's turn is over and any points they have accumulated during this turn are forfeited. Rolling a 1 doesn't wipe out your entire score, just the total earned during that particular roll.
+
+A player can also choose to hold (stop rolling) if they do not want to take a chance of rolling a 1 and losing all of their points from this turn. If the player chooses to hold, all of the points rolled during that turn are added to his or her score.
+
+When a player reaches a total of 100 or more points, the game ends and that player is the winner._
+
+
+## Specifications
+| Behavior        | input          | output  |
+| ------------- |:-------------:| -----:|
+| Prompts user for nickname and stores the value | Anduin | Anduin |
+| Create random number generator from 1-6 on button click | click | 5 |
+| If random number equals 1, return a false boolean and move to next players turn | 1 | Next Turn |
+| Have program count up to 100, and then ends the game | 100 | Game End |
+| Have program add up the score and declare a winner based on if/else statements | (Pllayer 1 Score = 100) | Player 1 Wins! |
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_There are no known bugs._
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_If you have any thoughts or concerns, or would just like to get into contact with me, you can reach me at anduinmooney@gmail.com_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_Atom, Chrome, Bootstrap, JQuery_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2018 **_Anduin Mooney_**
